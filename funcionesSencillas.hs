@@ -11,4 +11,26 @@ triangulo base altura =
         area = (base * altura) / 2
         perimetro = base + 2 * lado
     in (area, perimetro)
-
+--Definir una funcion que reciba 2 numeros y devuelva verdad si el primero es mayor que el segundo
+esMayor :: Ord a => a -> a -> Bool
+esMayor x y = x > y
+--Definir una función que reciba un número y retorne verdad si este es múltiplo de 2
+esMultiploDe2 :: Integral a => a -> Bool
+esMultiploDe2 n = n `mod` 2 == 0
+esMultiploDe2b :: Integral a => a -> Bool
+esMultiploDe2b n = mod n 2 == 0
+--Definir una función que reciba un número y devuelva verdad si este es múltiplo de 2 y de 3 al mismo tiempo.
+esMultiploDe2y3 :: Integral a => a -> Bool
+esMultiploDe2y3 n = n `mod` 2 == 0 && n `mod` 3 == 0
+--Definir una función que reciba un número y lo devuelva elevado a la potencia 3.
+cubo :: Num a => a -> a
+cubo n = n ^ 3
+--Definir funciones que reciban un número y lo devuelvan elevado a la potencia 4,8,10,32.
+potencias :: Num a => a -> a
+potencias n = n ^ 4
+potencias2 :: Num a => a -> a
+potencias2 n = n ^ 8
+potencias3 :: Num a => a -> a
+potencias3 n = n ^ 10
+potencias4 :: Num a => a -> a
+potencias4 n = n ^ 32
