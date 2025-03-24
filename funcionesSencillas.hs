@@ -34,3 +34,7 @@ potencias3 :: Num a => a -> a
 potencias3 n = n ^ 10
 potencias4 :: Num a => a -> a
 potencias4 n = n ^ 32
+--Definir una función que reciba dos números y una función de orden y devuelva verdad si los números obedecen a la función de orden, falso en otro caso.
+obedeceOrden :: (a -> a -> Bool) -> a -> a -> Bool
+obedeceOrden f x y = f x y
+--ejemplos: obedeceOrden (>) 5 3     obedeceOrden (==) 4 4      obedeceOrden (/=) 6 6
