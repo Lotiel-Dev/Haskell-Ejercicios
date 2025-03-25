@@ -23,6 +23,7 @@ Para probar estos ejercicios en Haskell:
    ghci
 3. Carga el archivo en GHCi:
 
-:load archivo.hs
+    ```sh
+    :load archivo.hs
 
 4. Prueba las funciones llamándolas con diferentes valores.
