@@ -23,3 +23,9 @@ obtenerFila matriz k = matriz !! k
 --Definir una funcion que reciba una matriz (lista de listas) y un entero K y devuelva la columna K de la matriz
 obtenerColumna :: [[a]] -> Int -> [a]
 obtenerColumna matriz k = map (!! k) matriz
+
+
+
+--multiplicar :: Num a => a -> [[a]] -> [[a]]
+multiplicar :: Num b => [b] -> [b]
+multiplicar matriz  = map (*2) matriz
