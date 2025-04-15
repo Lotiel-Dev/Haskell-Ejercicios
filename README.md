@@ -19,7 +19,7 @@ Ejercicios.
 2.	Definir una función que reciba una lista y devuelva True si todos sus elementos son iguales
 3.	Definir una función que reciba una lista y devuelva True si la lista está ordenada ascendentemente
 4.	Definir una función que reciba una matriz (lista de listas) y un entero k y devuelva la fila k de la matriz
-5.	Definir una función que reciba una matriz (lista de listas) y un entero k y devuelva la columna k de la matriz
+5.	Definir una función que reciba una matriz (lista de listas) y un entero k y devuelva la columna k de la matriz.
 NOTAR QUE MODELAMOS LAS MATRICES COMO LISTA DE LISTAS, DONDE CADA FILA ES UNA LISTA.
 Ejemplo
 2	3
