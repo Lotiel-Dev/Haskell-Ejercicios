@@ -15,7 +15,7 @@
 ## EJERCICIOS CON LISTAS
 
 Ejercicios.
-1.	Definir una función que reciba una lista y devuelva el elemento del medio
+1.	Definir una función que reciba una lista y devuelva el elemento del medio.
 2.	Definir una función que reciba una lista y devuelva True si todos sus elementos son iguales.
 3.	Definir una función que reciba una lista y devuelva True si la lista está ordenada ascendentemente.
 4.	Definir una función que reciba una matriz (lista de listas) y un entero k y devuelva la fila k de la matriz.
